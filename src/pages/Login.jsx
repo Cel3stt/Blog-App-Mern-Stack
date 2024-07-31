@@ -19,7 +19,7 @@ const Login = () => {
         <form className="form login__form">
           <p className="form__error-message">This is an error message</p>
 
-          <input type="text" placeholder='Email' name='email' value={userData.email} onChange={changeInputHandler}/>
+          <input type="text" placeholder='Email' name='email' value={userData.email} onChange={changeInputHandler} autoFocus/>
 
           <input type="password" placeholder='Password' name='password' value={userData.password} onChange={changeInputHandler}/>
 

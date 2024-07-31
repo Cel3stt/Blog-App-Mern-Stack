@@ -13,6 +13,7 @@ const Footer = () => {
         <li><Link to="/posts/categories/Education">Education</Link></li>
         <li><Link to="/posts/categories/Friends">Friends</Link></li>
         <li><Link to="/posts/categories/Music">Music</Link></li>
+        <li><Link to="/posts/categories/Uncategorized">Uncategorized</Link></li>
       </ul>
 
     <div className="footer__copyright">
